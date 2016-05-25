@@ -1,0 +1,45 @@
+body{
+  margin: 100px;
+  width: 100%;
+  height: inherit;
+}
+
+.aluo{
+
+	margin:auto;
+}
+
+
+table{
+	height: 100vh;
+	border: 20px solid red;
+	width: 100%;
+	padding: 100px;
+}
+
+tr{
+	border: 5px solid red;
+	padding: 2%;
+}
+
+tr:nth-child(even) {
+	border-bottom: 20px solid red;
+}
+
+td{
+	border: 10px solid red;
+	padding: 2%;
+	font-family: 'TisaSansScComp-Bold';
+  	color:red;
+  	font-size: 36px;
+  	text-align: right;
+  	vertical-align: top;
+}
+
+td:nth-child(2) {
+	border-right: 20px solid red;
+}
+
+@media(max-width:768px){
+	body{padding: 0px !important}
+}
